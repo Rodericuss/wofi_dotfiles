@@ -1,30 +1,37 @@
 * {
-	font-family: "Hack", monospace;
+	font-family: "JetBrainsMono Nerd Font Mono ", monospace;
 }
 
 window {
-	background-color: #3B4252;
-	border-radius: 9px;
+	background-color: #ee5396;
+	/* background-color: #78a9ff; */
+	/* base00 */
+	/* border-radius: 4px; */
 }
 
 #input {
 	margin: 5px;
-	border-radius: 5px;
-	border: 5px;
-	background-color: #3B4252;
-	color: white;
+	/* padding: 6px; */
+	/* border-radius: 4px; */
+	border: none;
+	background-color: #f2f4f8;
+	/* base01 */
+	color: #161616;
+	/* base07 */
 }
 
 #inner-box {
-	border-radius: 5px;
-	background-color: #383C4A;
+	border-radius: 4px;
+	background-color: #000000;
+	/* base02 */
 }
 
 #outer-box {
-	border-radius: 5px;
-	margin: 2px;
-	padding: 10px;
-	background-color: #383C4A;
+	/* border-radius: 4px; */
+	margin: 4px;
+	padding: 8px;
+	background-color: #000000;
+	/* base02 */
 }
 
 #scroll {
@@ -32,20 +39,24 @@ window {
 }
 
 #text {
-	padding: 4px;
-	color: white;
+	padding: 6px;
+	color: #ffffff;
+	/* base07 */
 }
 
-#entry:nth-child(even){
-	border-radius: 5px;
-	background-color: #404552;
+#entry:nth-child(even) {
+	/* border-radius: 4px; */
+	background-color: #000000;
+	/* base03 */
 }
 
 #entry:selected {
-	border-radius: 5px;
-	background-color: #4C566A;
+	border-radius: 4px;
+	background-color: #78a9ff;
+	/* base0D */
 }
 
 #text:selected {
 	background: transparent;
+	color: #ffffff;
 }
